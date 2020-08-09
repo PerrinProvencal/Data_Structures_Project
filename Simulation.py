@@ -17,7 +17,7 @@ def main():
 #Insertions for Linkedlist Hashtable
 
     for i in range(1024):
-        m = 0 #accumilator to add the time for every single insertion
+        m = 0 #accumulator to add the time for every single insertion
         start_1 = timeit.default_timer()
         a.insert(numpy.random.randint(16385,65335))
         end_1 = timeit.default_timer()
